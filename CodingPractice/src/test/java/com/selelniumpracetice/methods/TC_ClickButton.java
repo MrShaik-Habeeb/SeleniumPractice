@@ -44,6 +44,7 @@ public class TC_ClickButton {
 
 		System.out.println(driver.switchTo().window(child_window).getTitle());
 
+		//close child window
 		driver.close();
 		}
 
