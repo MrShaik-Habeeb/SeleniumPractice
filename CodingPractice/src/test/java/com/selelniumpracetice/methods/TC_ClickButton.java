@@ -52,8 +52,6 @@ public class TC_ClickButton {
 		//switch to the parent window
 		driver.switchTo().window(parent);
 
-	
-		
 		
 	}
 
