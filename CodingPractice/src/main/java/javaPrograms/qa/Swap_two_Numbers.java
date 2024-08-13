@@ -16,27 +16,25 @@ public class Swap_two_Numbers {
 		
 		// Logic 2 Use + and - 
 		
-	a=a+b;
-	b=a-b;
-	a=a-b;
+		/*
+		 * a=a+b; b=a-b; a=a-b;
+		 */
 	
 
 		//Logic 3  * and /
 		// condition "a" and "b" value is not zero
-		
-		a=a*b;
-		b=a/b;
-		a=a/b;
+		/*
+		 * a=a*b; b=a/b; a=a/b;
+		 */
 		
 	//Logic 4 Single Statement 
 	
 //	b=a+b-(a=b);
 	
 	//LOgic 5  bitwise XOR (^)
-	
-	a=a^b;
-	b=a^b;
-	a=a^b;
+	/*
+	 * a=a^b; b=a^b; a=a^b;
+	 */
 	
 	
 	System.out.println("Print Swap No:"+a+ " "+b);
